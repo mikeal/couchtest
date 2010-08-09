@@ -44,6 +44,6 @@ To be recovered:
 
 This database has one document with hundreds of conflicting updates for it's second revision all committed between restarts.
 
-
+The updates to be recovered are contained in the multi-conflict-changes-log file.
 
 
