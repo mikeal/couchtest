@@ -2,21 +2,31 @@
 
 ### multiple_restart
 
-Created one document, 50b43230770fec2b1a3ea794f20007fc.
-Failed write attempt to 50b43230770fec2b1a3ea794f2001423 (which stopped writing the proper header).
-Created two other documents, 50b43230770fec2b1a3ea794f2000ab5, 50b43230770fec2b1a3ea794f2001423.
-Updated 50b43230770fec2b1a3ea794f2001423 with rev 2-ae3fdc78a21f25eeee4f4ca2970d3424.
+1. Created one document, 50b43230770fec2b1a3ea794f20007fc.
 
-Restarted.
+2. Failed write attempt to 50b43230770fec2b1a3ea794f2001423 (which stopped writing the proper header).
 
-Updated 50b43230770fec2b1a3ea794f20007fc to rev 2-372471c7b896e112d57cffccb7bfd41b.
+3. Created two other documents, 50b43230770fec2b1a3ea794f2000ab5, 50b43230770fec2b1a3ea794f2001423.
 
-Failed write attempt to 50b43230770fec2b1a3ea794f20007fc (which stopped writing the proper header).
+4. Updated 50b43230770fec2b1a3ea794f2001423 with rev 2-ae3fdc78a21f25eeee4f4ca2970d3424.
 
-Updated 50b43230770fec2b1a3ea794f20007fc to rev 3-72041bcdea70a0d76d4ddb343fdf23e7.
+5. Restarted.
 
-Restarted.
+6. Updated 50b43230770fec2b1a3ea794f20007fc to rev 2-372471c7b896e112d57cffccb7bfd41b.
 
-Updated 50b43230770fec2b1a3ea794f20007fc to rev 3-a4d9ab5f51593f312ab58ed49bf1de58.
+7. Failed write attempt to 50b43230770fec2b1a3ea794f20007fc (which stopped writing the proper header).
 
-Stopped.
+8. Updated 50b43230770fec2b1a3ea794f20007fc to rev 3-72041bcdea70a0d76d4ddb343fdf23e7.
+
+9. Restarted.
+
+10. Updated 50b43230770fec2b1a3ea794f20007fc to rev 3-a4d9ab5f51593f312ab58ed49bf1de58.
+
+11. Stopped.
+
+To be recovered:
+
+50b43230770fec2b1a3ea794f2000ab5 at rev 1- and 50b43230770fec2b1a3ea794f2001423 at revision 2-ae3fdc78a21f25eeee4f4ca2970d3424.
+
+50b43230770fec2b1a3ea794f20007fc rev 3-72041bcdea70a0d76d4ddb343fdf23e7.
+
