@@ -40,3 +40,10 @@ To be recovered:
 
 50b43230770fec2b1a3ea794f20007fc rev 3-72041bcdea70a0d76d4ddb343fdf23e7.
 
+### multi-conflict
+
+This database has one document with hundreds of conflicting updates for it's second revision all committed between restarts.
+
+
+
+
