@@ -1,8 +1,10 @@
 var request = require('request')
-  , sys = require('sys');
+  , sys = require('sys')
+  ;
 
-var id = "50b43230770fec2b1a3ea794f20007fc"
-var db = "multiple_restart"
+var id = "9e93e936ebe5872c59b48bb9f4000729"
+  , db = "single_restart"
+  ;
 
 uri = "http://localhost:5984/"+ db +"/" + id;
 
