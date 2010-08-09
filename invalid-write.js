@@ -2,8 +2,8 @@ var request = require('request')
   , sys = require('sys')
   ;
 
-var id = "9e93e936ebe5872c59b48bb9f4000729"
-  , db = "single_restart"
+var id = "0bccb66bd165ef21ea6f30ea260001e8"
+  , db = "testwritesdb"
   ;
 
 uri = "http://localhost:5984/"+ db +"/" + id;

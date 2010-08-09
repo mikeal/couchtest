@@ -46,4 +46,38 @@ This database has one document with hundreds of conflicting updates for it's sec
 
 The updates to be recovered are contained in the multi-conflict-changes-log file.
 
+### testwritesdb
+
+One document was created and then an invalid write attempted, putting the db in a bad state.
+
+Then test/test_writes.js was run for 200 seconds. At the end of the run this was the state of the db.
+<pre>
+  {
+    db_name: "testwritesdb"
+    doc_count: 124969
+    doc_del_count: 0
+    update_seq: 124969
+    purge_seq: 0
+    compact_running: false
+    disk_size: 54857478
+    instance_start_time: "1281384140058211"
+    disk_format_version: 5
+  }
+</pre>
+
+This was the state after restart:
+
+<pre>
+  {
+    db_name: "testwritesdb"
+    doc_count: 1
+    doc_del_count: 0
+    update_seq: 1
+    purge_seq: 0
+    compact_running: false
+    disk_size: 54857478
+    instance_start_time: "1281384593876026"
+    disk_format_version: 5
+  }
+</pre>
 
