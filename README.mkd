@@ -114,4 +114,6 @@ disk_format_version: 5
 
 Recovery should find 200 previous docs + 1 attachment and a couple soft updates to docs.
 
--Mik
+### multi_conflict_commit
+
+Just like multi\_conflict except there is a document write and an \_ensure\_full\_commit before putting the db in a state the loses the updates.
