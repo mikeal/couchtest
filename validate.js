@@ -4,7 +4,7 @@ var http = require('http')
   , sys = require('sys')
   ;
 
-var db = 'rv'
+var db = 'multi_conflict_commit'
   , uri = 'http://nightcrawler.local:5984/'
   , headers = {'content-type':'application/json'}
   ;
